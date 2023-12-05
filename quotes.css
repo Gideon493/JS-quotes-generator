@@ -1,0 +1,61 @@
+* {
+  font-family: "Roboto Slab", serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url(https://img.freepik.com/premium-photo/round-bookshelf-public-library-generative-ai_779468-10140.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background-color: black;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: burlywood;
+  border: 1px solid sandybrown;
+}
+
+.content {
+  background-color: rgb(211, 207, 184);
+  padding: 2rem;
+  border-radius: 15px;
+  height: 100px;
+  box-shadow: 0 0 10px darkslategray;
+}
+.quote {
+  font-size: 1.2rem;
+}
+.author {
+  color: crimson;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.addnewquote {
+  background-color: black;
+  color: antiquewhite;
+  padding: 0.5rem 0.5rem;
+  border-radius: 7px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
+}
+.anima {
+  animation-name: slideLeft;
+  animation-duration: 1s;
+}
+@keyframes slideLeft {
+  from {
+    visibility: hidden;
+  }
+
+  to {
+    visibility: visible;
+  }
+}
